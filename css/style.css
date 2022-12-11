@@ -13,6 +13,10 @@ html{
     background-color: #17213D;
     font-family: Base-font;
 }
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
 .container{
     width: calc(100% - 200px);
     margin: 0 auto;
@@ -51,15 +55,52 @@ a,h1,h2,h3,h4,h5,h6,p{
     text-align: center;
 }
 .main-info{
-    margin-top: 2vh;
+    display: flex;
+    margin-top: 10vh;
     text-align: left;
     max-width: 90%;
     padding-left: 30px;
+    align-items: center;
+    justify-content: space-between;
+    m
 }
 .main-info__text{
     margin-bottom: 2vh;
 }
-.main-info__image{
-    padding-left: 10%;
-    position: relative;
+.image{
+    width: 10%;
+    height: auto;
+    padding-left: 5px;
+    max-height: 95px;
+}
+.main-about{
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main-about__image{
+    padding-right: 10px;
+}
+.benefits{
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    outline: none;
+    margin-bottom: 10vh;
+}
+.benefits-title{
+    margin-top: 20vh;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.benefits-list__item{
+    display: flex;
+    padding-top: 1vh;
+    text-align: center;
+    align-items: center;
+    color: #CCD2E0;
+    width: max-content;
+    margin-left: calc(100% - 350px);
+    margin-right: calc(100% + 150px);
 }
