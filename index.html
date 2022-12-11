@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script async src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Khinkali #1: Главная</title>
 </head>
 <body>
@@ -13,7 +15,7 @@
         <div class="container">
             <div class="header-wrapper">
                 <div class="menu">
-                    <a href="#" class="menu-item"><img src="img/menu/home.svg" alt="Icon: Home" class="menu-image"><p class="menu-subtitle">Меню</p></a>
+                    <a href="pages/menu.html" class="menu-item"><img src="img/menu/home.svg" alt="Icon: Home" class="menu-image"><p class="menu-subtitle">Меню</p></a>
                     <a href="#" class="menu-item"><img src="img/menu/contacts.svg" alt="Icon: Contacts" class="menu-image"><p class="menu-subtitle">Контакты</p></a>
                     <a href="https://yandex.ru/business/widget/request/company/70224040698" class="menu-item"><img src="img/menu/online.svg" alt="Icon: Online purchase" class="menu-image"><p class="menu-subtitle">Заказать</p></a>
                 </div>
@@ -56,4 +58,7 @@
                 <p class="benefits-list__item"><img src="img/main/checked.svg" alt="Icon: Checked icon" class="benefits-list__image">Специальное халяльное меню</p>
     </section>
 </body>
+<script>
+      AOS.init();
+    </script>
 </html>

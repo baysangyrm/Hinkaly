@@ -1,0 +1,10 @@
+.base-menu__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.base-menu__list-item{
+    padding: 13vh 18vw;
+}
