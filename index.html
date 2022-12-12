@@ -13,6 +13,8 @@
     <link rel="manifest" href="js/manifest.json">
     <script async src="js/cookie.js" async></script>
     <meta name="yandex-verification" content="996e701d9cbd5431" />
+    <meta name="description" content="Кафетерий Республики Ингушетия">
+    <meta name="keywords" content="Кафе ингушетия, кафе, заказать еду, где поесть, еда, купить еду">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Khinkali #1: Главная</title>
 
@@ -111,4 +113,18 @@
 <script>
     AOS.init();
 </script>
+<script>
+    if ('serviceWorker' in navigator) {
+     window.addEventListener('load', function() {  
+       navigator.serviceWorker.register('js/sw.js').then(
+         function(registration) {
+           // Registration was successful
+           console.log('ServiceWorker registration successful with scope: ', registration.scope); },
+         function(err) {
+           // registration failed :(
+           console.log('ServiceWorker registration failed: ', err);
+         });
+     });
+    }
+    </script>
 </html>
