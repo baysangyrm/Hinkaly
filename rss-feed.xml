@@ -23,9 +23,6 @@
     <meta name="keywords" content="Кафе ингушетия, кафе, заказать еду, где поесть, еда, купить еду">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Khinkali #1: Главная - Кафе ингушетия, кафе, заказать еду, где поесть, еда, купить еду</title>
-
-
-    <!-- From app -->
     <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
@@ -43,17 +40,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <!-- From app -->
-
-
-    <script>
-        // ПРЕЛОАДЕР JS
-            window.addEventListener('load',function(){
-        document.querySelector('body').classList.add("loaded")  
-        });
-        // ПРЕЛОАДЕР JS 
-    </script>
-
 </head>
 <body>
         <!-- PRELOADER!!! -->
