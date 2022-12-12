@@ -11,7 +11,8 @@
 }
 html{
     background-color: #17213D;
-    font-family: Base-font;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 li{
     text-decoration: none;
@@ -21,7 +22,8 @@ li{
     width: calc(100% - 200px);
     margin: 0 auto;
 }
-a,h1,h2,h3,h4,h5,h6,p{
+a,p{
+    font-family: Base-font;
     text-decoration: none;
     outline: none;
     color: #CCD2E3;

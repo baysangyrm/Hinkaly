@@ -8,3 +8,10 @@
 .base-menu__list-item{
     padding: 13vh 18vw;
 }
+.base-title{
+    text-align: center;
+    padding-top: 1vh;
+}
+.base-link{
+    color: orange;
+}
