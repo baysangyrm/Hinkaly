@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /css
+Disallow: /впишите-адрес-запрещенной-директории
+Disallow: 
+Host: hinkaly.vercel.app
+Sitemap: http://hinkaly.vercel.app/sitemap.xml
