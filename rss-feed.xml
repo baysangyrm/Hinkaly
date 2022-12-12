@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:yandex="http://news.yandex.ru"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:turbo="http://turbo.yandex.ru"
+     version="2.0">
+    <channel>
+        <!-- Информация о сайте-источнике -->
+        <title>Название канала</title>
+        <link>http://hinkaly.vercel.app/</link>
+        <description>Кафетерий Республики Ингушетия</description>
+        <language>ru</language>
+        <turbo:analytics></turbo:analytics>
+        <turbo:adNetwork></turbo:adNetwork>
+        <item turbo="true">
+            <!-- Информация о странице -->
+            <turbo:extendedHtml>true</turbo:extendedHtml>
+            <link>http://hinkaly.vercel.app/pages/menu.html</link>
+            <turbo:source></turbo:source>
+            <turbo:topic></turbo:topic>
+            <pubDate>Tue, 21 Apr 2015 14:15:00 +0300</pubDate>
+            <author>Vadim Vordov</author>
+            <metrics>
+                <yandex schema_identifier="Идентификатор">
+                    <breadcrumblist>
+                        <breadcrumb url="http://hinkaly.vercel.app/" text="Домашняя"/>
+                        <breadcrumb url="http://hinkaly.vercel.app/pages/menu.html" text="Меню"/>
+                        <breadcrumb url="http://example.com/category/sub-category/" text="Подкатегория"/>
+                        <breadcrumb url="http://example.com/category/sub-category/page1.html" text="Пример страницы"/>
+                    </breadcrumblist>
+                </yandex>
+            </metrics>
+            <yandex:related></yandex:related>
+            <turbo:content>
+                <![CDATA[
+                    <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/preload.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/cookie.css">
+    <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon">
+    <link rel="manifest" href="js/manifest.json">
+    <script async src="js/cookie.js" async></script>
+    <meta name="description" content="Кафетерий Республики Ингушетия">
+    <meta name="keywords" content="Кафе ингушетия, кафе, заказать еду, где поесть, еда, купить еду">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Khinkali #1: Главная - Кафе ингушетия, кафе, заказать еду, где поесть, еда, купить еду</title>
+
+
+    <!-- From app -->
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="js/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- From app -->
+
+
+    <script>
+        // ПРЕЛОАДЕР JS
+            window.addEventListener('load',function(){
+        document.querySelector('body').classList.add("loaded")  
+        });
+        // ПРЕЛОАДЕР JS 
+    </script>
+
+</head>
+<body>
+        <!-- PRELOADER!!! -->
+        <div class="loader-wrapper">
+            <div class="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+          </div>
+        <!-- PRELOADER!!! -->
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="menu">
+                    <a href="pages/menu.html" class="menu-item"><img src="img/menu/home.svg" alt="Icon: Home" class="menu-image"><p class="menu-subtitle">Меню</p></a>
+                    <a href="#" class="menu-item"><img src="img/menu/contacts.svg" alt="Icon: Contacts" class="menu-image"><p class="menu-subtitle">Контакты</p></a>
+                    <a href="t.me/hinkalybot" class="menu-item"><img src="img/menu/online.svg" alt="Icon: Online purchase" class="menu-image"><p class="menu-subtitle">Заказать</p></a>
+                </div>
+                <!-- /.menu -->
+            </div>
+            <!-- /.header-wrapper -->
+        </div>
+        <!-- /.container -->
+    </header>
+    <section class="main">
+            <div class="main-wrapper">
+                <div class="main-logo">
+                    <h1 class="main-logo__title">Khinkali №1</h1>
+                </div>
+                <!-- /.main-logo -->
+                <div class="main-info">
+                    <p class="main-info__text">
+                        Khinkali №1 - является замечательным <br> кафетерием с интересным меню, <br> а также приятной атмосферой.
+                    </p>
+                    <img src="img/main/first.svg" alt="Icon: Photo" class="main-info__image image">
+                </div>
+                <!-- /.main-info -->
+                <div class="main-about">
+                    <img src="img/main/second.svg" alt="Icon: Photo" class="main-about__image image">
+                    <p class="main-about__text">
+                        Восхитительные блюда готовы <br> радовать вас каждый день.
+                    </p>
+                </div>
+                <!-- /.main-about -->
+
+            </div>
+            <!-- /.main-wrapper -->
+    </section>
+    <section class="benefits">
+            <h3 class="benefits-title">Наши преимущества:</h3>
+                <p class="benefits-list__item"><img src="img/main/checked.svg" alt="Icon: Checked icon" class="benefits-list__image">Быстрая доставка</p>
+                <p class="benefits-list__item"><img src="img/main/checked.svg" alt="Icon: Checked icon" class="benefits-list__image">Возможность заказа онлайн</p>
+                <p class="benefits-list__item"><img src="img/main/checked.svg" alt="Icon: Checked icon" class="benefits-list__image">Предзаказ онлайн</p>
+                <p class="benefits-list__item"><img src="img/main/checked.svg" alt="Icon: Checked icon" class="benefits-list__image">Наличие WI-FI</p>
+                <p class="benefits-list__item"><img src="img/main/checked.svg" alt="Icon: Checked icon" class="benefits-list__image">Специальное халяльное меню</p>
+    </section>
+    <div id="cookie_note">
+        <p>Мы используем файлы cookies для улучшения работы сайта. Оставаясь на нашем сайте, вы соглашаетесь с условиями
+            использования файлов cookies. Чтобы ознакомиться с нашими Положениями о конфиденциальности и об использовании
+            файлов cookie, <a href="policy.txt" target="_blank">нажмите здесь</a>.</p>
+        <button class="button cookie_accept btn btn-primary btn-sm">Я согласен</button>
+    </div>
+</body>
+<script>
+    AOS.init();
+</script>
+<script>
+    if ('serviceWorker' in navigator) {
+     window.addEventListener('load', function() {  
+       navigator.serviceWorker.register('js/sw.js').then(
+         function(registration) {
+           // Registration was successful
+           console.log('ServiceWorker registration successful with scope: ', registration.scope); },
+         function(err) {
+           // registration failed :(
+           console.log('ServiceWorker registration failed: ', err);
+         });
+     });
+    }
+    </script>
+</html>
+
+                ]]>
+            </turbo:content>
+        </item>
+        <item turbo="true">
+            ...
+            <turbo:content>
+                <![CDATA[
+                    <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/preload.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <script>
+        // ПРЕЛОАДЕР JS
+            window.addEventListener('load',function(){
+        document.querySelector('body').classList.add("loaded")  
+        });
+        // ПРЕЛОАДЕР JS 
+    </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/menuindex.css">
+    <script async src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Khinkali №1: Меню</title>
+</head>
+<body>
+        <!-- PRELOADER!!! -->
+        <div class="loader-wrapper">
+            <div class="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+          </div>
+        <!-- PRELOADER!!! -->
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="menu">
+                    <a href="menu.html" class="menu-item"><img src="../img/menu/home.svg" alt="Icon: Home" class="menu-image"><p class="menu-subtitle">Меню</p></a>
+                    <a href="#" class="menu-item"><img src="../img/menu/contacts.svg" alt="Icon: Contacts" class="menu-image"><p class="menu-subtitle">Контакты</p></a>
+                    <a href="https://t.me/hinkalybot" class="menu-item"><img src="../img/menu/online.svg" alt="Icon: Online purchase" class="menu-image"><p class="menu-subtitle">Заказать</p></a>
+                </div>
+                <!-- /.menu -->
+            </div>
+            <!-- /.header-wrapper -->
+        </div>
+        <!-- /.container -->
+    </header>
+    <section class="base">
+        <div class="container">
+            <div class="base-wrapper">
+                <div class="base-menu">
+                    <p class="base-title">Заказать это и многое другое вы можете в нашем телеграм боте: <a href="https://t.me/hinkalybot" class="base-link">Перейти в бота.</a></p>
+                    <div class="base-menu__list">
+                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/salats.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Салаты, холодные закуски</p></a>
+                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/Pecan.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Выпечка</p></a>
+                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/soups.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Супы</p></a>
+                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/coal.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Блюда на углях</p></a>
+                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/soups.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Хинкали</p></a>
+                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/Hotdish.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Горячие блюда</p></a>
+                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/smuzi.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Прохладительные напитки</p></a>
+                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/colddrink.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Домашние лимонады</p></a>
+                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/milkkoctail.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Молочные коктейли</p></a>
+                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/tea.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Чай</p></a>
+                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/burger.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Бургеры</p></a>
+                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/sausage.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Соусы</p></a>
+                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/Desert.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Десерты</p></a>
+                    </div>
+                    <!-- /.base-menu__list -->
+                </div>
+                <!-- /.base-menu -->
+            </div>
+            <!-- /.base-wrapper -->
+        </div>
+        <!-- /.container -->
+    </section>
+</body>
+<script>
+      AOS.init();
+    </script>
+</html>
+                ]]>
+            </turbo:content>
+        </item>
+        ...
+    </channel>
+</rss>

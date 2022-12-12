@@ -2,5 +2,6 @@ User-agent: *
 Disallow: /css
 Disallow: /впишите-адрес-запрещенной-директории
 Disallow: 
+Allow: rss-feed.xml
 Host: hinkaly.vercel.app
 Sitemap: http://hinkaly.vercel.app/sitemap.xml
