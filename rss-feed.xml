@@ -40,7 +40,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <h1 class="header">header</h1>
 </head>
 <body>
         <!-- PRELOADER!!! -->
@@ -51,6 +50,7 @@
           </div>
         <!-- PRELOADER!!! -->
     <header class="header">
+        <h1 class="header" style="display: none;">header</h1>
         <div class="container">
             <div class="header-wrapper">
                 <div class="menu">
