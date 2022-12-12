@@ -1,38 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:yandex="http://news.yandex.ru"
-     xmlns:media="http://search.yahoo.com/mrss/"
-     xmlns:turbo="http://turbo.yandex.ru"
-     version="2.0">
-    <channel>
-        <!-- Информация о сайте-источнике -->
-        <title>hinkalybot</title>
-        <link>https://hinkaly.vercel.app/index.html</link>
-        <description>Кафетерий Республики Ингушетия</description>
-        <language>ru</language>
-        <turbo:analytics></turbo:analytics>
-        <turbo:adNetwork></turbo:adNetwork>
-        <item turbo="true">
-            <!-- Информация о странице -->
-            <turbo:extendedHtml>true</turbo:extendedHtml>
-            <link>http://hinkaly.vercel.app/pages/menu.html</link>
-            <turbo:source></turbo:source>
-            <turbo:topic></turbo:topic>
-            <pubDate>Tue, 21 Apr 2015 14:15:00 +0300</pubDate>
-            <author>Vadim Vordov</author>
-            <metrics>
-                <yandex schema_identifier="Идентификатор">
-                    <breadcrumblist>
-                        <breadcrumb url="http://hinkaly.vercel.app/" text="Домашняя"/>
-                        <breadcrumb url="http://hinkaly.vercel.app/pages/menu.html" text="Меню"/>
-                        <breadcrumb url="http://example.com/category/sub-category/" text="Подкатегория"/>
-                        <breadcrumb url="http://example.com/category/sub-category/page1.html" text="Пример страницы"/>
-                    </breadcrumblist>
-                </yandex>
-            </metrics>
-            <yandex:related></yandex:related>
-            <turbo:content>
-                <![CDATA[
-                    <!DOCTYPE html>
+<rss xmlns:yandex="http://news.yandex.ru" xmlns:media="http://search.yahoo.com/mrss/" xmlns:turbo="http://turbo.yandex.ru" version="2.0">
+     <channel>
+         <item turbo="true">
+              <link>http://hinkaly.vercel.app/index.html</link>
+              <turbo:content>
+                    <![CDATA[
+                         <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -162,92 +135,8 @@
     </script>
 </html>
 
-                ]]>
-            </turbo:content>
-        </item>
-        <item turbo="true">
-            ...
-            <turbo:content>
-                <![CDATA[
-                    <!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/preload.css">
-    <link rel="stylesheet" href="../css/normalize.css">
-    <script>
-        // ПРЕЛОАДЕР JS
-            window.addEventListener('load',function(){
-        document.querySelector('body').classList.add("loaded")  
-        });
-        // ПРЕЛОАДЕР JS 
-    </script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/menuindex.css">
-    <script async src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <title>Khinkali №1: Меню</title>
-</head>
-<body>
-        <!-- PRELOADER!!! -->
-        <div class="loader-wrapper">
-            <div class="loader"></div>
-            <div class="loader-section section-left"></div>
-            <div class="loader-section section-right"></div>
-          </div>
-        <!-- PRELOADER!!! -->
-    <header class="header">
-        <div class="container">
-            <div class="header-wrapper">
-                <div class="menu">
-                    <a href="menu.html" class="menu-item"><img src="../img/menu/home.svg" alt="Icon: Home" class="menu-image"><p class="menu-subtitle">Меню</p></a>
-                    <a href="#" class="menu-item"><img src="../img/menu/contacts.svg" alt="Icon: Contacts" class="menu-image"><p class="menu-subtitle">Контакты</p></a>
-                    <a href="https://t.me/hinkalybot" class="menu-item"><img src="../img/menu/online.svg" alt="Icon: Online purchase" class="menu-image"><p class="menu-subtitle">Заказать</p></a>
-                </div>
-                <!-- /.menu -->
-            </div>
-            <!-- /.header-wrapper -->
-        </div>
-        <!-- /.container -->
-    </header>
-    <section class="base">
-        <div class="container">
-            <div class="base-wrapper">
-                <div class="base-menu">
-                    <p class="base-title">Заказать это и многое другое вы можете в нашем телеграм боте: <a href="https://t.me/hinkalybot" class="base-link">Перейти в бота.</a></p>
-                    <div class="base-menu__list">
-                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/salats.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Салаты, холодные закуски</p></a>
-                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/Pecan.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Выпечка</p></a>
-                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/soups.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Супы</p></a>
-                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/coal.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Блюда на углях</p></a>
-                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/soups.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Хинкали</p></a>
-                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/Hotdish.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Горячие блюда</p></a>
-                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/smuzi.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Прохладительные напитки</p></a>
-                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/colddrink.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Домашние лимонады</p></a>
-                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/milkkoctail.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Молочные коктейли</p></a>
-                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/tea.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Чай</p></a>
-                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/burger.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Бургеры</p></a>
-                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/sausage.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Соусы</p></a>
-                        <a href="#" class="base-menu__list-item" data-aos="fade-up" data-aos="zoom-out"><img src="../img/menu/products/Desert.svg" alt="Icon: Menu image" class="base-menu__list-image"><p class="base-menu__list-title">Десерты</p></a>
-                    </div>
-                    <!-- /.base-menu__list -->
-                </div>
-                <!-- /.base-menu -->
-            </div>
-            <!-- /.base-wrapper -->
-        </div>
-        <!-- /.container -->
-    </section>
-</body>
-<script>
-      AOS.init();
-    </script>
-</html>
-                ]]>
-            </turbo:content>
-        </item>
-        ...
-    </channel>
+                    ]]>
+              </turbo:content>
+          </item>
+     </channel>
 </rss>
