@@ -95,12 +95,6 @@
                 <p class="benefits-list__item"><img src="img/main/checked.svg" alt="Icon: Checked icon" class="benefits-list__image">Наличие WI-FI</p>
                 <p class="benefits-list__item"><img src="img/main/checked.svg" alt="Icon: Checked icon" class="benefits-list__image">Специальное халяльное меню</p>
     </section>
-    <div id="cookie_note">
-        <p>Мы используем файлы cookies для улучшения работы сайта. Оставаясь на нашем сайте, вы соглашаетесь с условиями
-            использования файлов cookies. Чтобы ознакомиться с нашими Положениями о конфиденциальности и об использовании
-            файлов cookie, <a href="policy.txt" target="_blank">нажмите здесь</a>.</p>
-        <button class="button cookie_accept btn btn-primary btn-sm">Я согласен</button>
-    </div>
 </body>
 <script>
     AOS.init();
