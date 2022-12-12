@@ -6,7 +6,7 @@
     max-width: 90%;
     transform: translateX(-50%);
     padding: 20px;
-    background-color: white;
+    background-color: #17213D;
     border-radius: 4px;
     box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.4);
     padding-bottom: 30px;
@@ -17,7 +17,7 @@
     margin: 0;
     font-size: 0.7rem;
     text-align: left;
-    color: black;
+    color: white;
 }
 
 .cookie_accept{
@@ -34,4 +34,11 @@
         display: block;
         text-align: left;
     }
+}
+.button{
+    border-radius: 30px;
+    background-color: #17213D;
+    color: white;
+    outline: none;
+    cursor: pointer;
 }
