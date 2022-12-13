@@ -109,20 +109,19 @@
         <button class="button cookie_accept btn btn-primary btn-sm">Я согласен</button>
     </div>
 </body>
-<script>
-    if ('serviceWorker' in navigator) {
-     window.addEventListener('load', function() {  
-       navigator.serviceWorker.register('js/sw.js').then(
-         function(registration) {
-           // Registration was successful
-           console.log('ServiceWorker registration successful with scope: ', registration.scope); },
-         function(err) {
-           // registration failed :(
-           console.log('ServiceWorker registration failed: ', err);
-         });
-     });
-    };
-    AOS.init();
+    <script>
+        if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {  
+        navigator.serviceWorker.register('js/sw.js').then(
+            function(registration) {
+            // Registration was successful
+            console.log('ServiceWorker registration successful with scope: ', registration.scope); },
+            function(err) {
+            // registration failed :(
+            console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+        };
     </script>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
