@@ -1,0 +1,20 @@
+.contacts-wrapper{
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding-top: 2vh;
+}
+.contacts-link{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    display: block;
+    align-items: center;
+}
+.copywrite{
+    text-align: center;
+    position: fixed;
+    bottom: 10%;
+    left: 25%;
+    right: 25%;
+    font-size: 15px;
+}

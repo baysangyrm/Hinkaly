@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/preload.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <script>
+        // ПРЕЛОАДЕР JS
+            window.addEventListener('load',function(){
+        document.querySelector('body').classList.add("loaded")  
+        });
+        // ПРЕЛОАДЕР JS 
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="../icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../icons/favicon-16x16.png">
+    <link rel="stylesheet" href="../css/contacts.css">
+    <link rel="manifest" href="../js/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- From app -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/menuindex.css">
+    <title>Khinkali №1: Меню</title>
+</head>
+<body>
+        <!-- PRELOADER!!! -->
+        <div class="loader-wrapper">
+            <div class="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+          </div>
+        <!-- PRELOADER!!! -->
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="menu">
+                    <a href="menu.html" class="menu-item"><img src="../img/menu/home.svg" alt="Icon: Home" class="menu-image"><p class="menu-subtitle">Меню</p></a>
+                    <a href="contacts.html" class="menu-item"><img src="../img/menu/contacts.svg" alt="Icon: Contacts" class="menu-image"><p class="menu-subtitle">Контакты</p></a>
+                    <a href="https://t.me/hinkalybot" class="menu-item"><img src="../img/menu/online.svg" alt="Icon: Online purchase" class="menu-image"><p class="menu-subtitle">Заказать</p></a>
+                </div>
+                <!-- /.menu -->
+            </div>
+            <!-- /.header-wrapper -->
+        </div>
+        <!-- /.container -->
+    </header>
+    <section class="contacts">
+        <div class="container">
+            <div class="contacts-wrapper">
+                <a data-aos="fade-up" href="tel:79222522544" class="contacts-link">Позвонить по телефону: <br> +7 922-252-25-44</a>
+                <a data-aos="fade-up" href="https://wa.me/79222522544" class="contacts-link">Перейти в WhatsApp</a>
+                <a data-aos="fade-up" href="t.me/hinkalybot" class="contacts-link">Телеграм бот</a>
+                <a data-aos="fade-up" href="t.me/negrvitalik" class="contacts-link">Оператор в телеграм</a>
+                <a data-aos="fade-up" href="vk.com/vordov_sad_mb" class="contacts-link">Вконтакте разработчика</a>
+            </div>
+            <!-- /.contacts-wrapper -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <section class="copywriting">
+        <p class="copywrite">
+            <a href="github.com/baysangyrm" class="avtor-link">By John Snow</a> <br> all rights reserved
+        </p>
+    </section>
+</body>
+<script>
+    if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {  
+    navigator.serviceWorker.register('../js/sw.js').then(
+        function(registration) {
+        // Registration was successful
+        console.log('ServiceWorker registration successful with scope: ', registration.scope); },
+        function(err) {
+        // registration failed :(
+        console.log('ServiceWorker registration failed: ', err);
+        });
+    });
+    };
+</script>
+<script>
+    AOS.init();
+</script>
+</html>
