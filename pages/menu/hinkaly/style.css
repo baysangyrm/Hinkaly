@@ -1,0 +1,9 @@
+.back-button{
+    border-radius: 30px;
+    position: fixed;
+    z-index: 1;
+    left: 5%;
+    top: 49%;
+    width: max-content;
+    height: max-content;
+}
