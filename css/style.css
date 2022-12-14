@@ -19,7 +19,7 @@ li{
     list-style-type: none;
 }
 .container{
-    width: calc(100% - 200px);
+    width: calc(100% - 150px);
     margin: 0 auto;
 }
 a,p{

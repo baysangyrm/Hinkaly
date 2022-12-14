@@ -15,3 +15,7 @@
 .base-link{
     color: orange;
 }
+.base-menu__list-item{
+    line-height: 130%;
+    width: max-content;
+}
